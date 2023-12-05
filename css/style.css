@@ -172,6 +172,7 @@ section .text_princnos {
 div iframe {
   width: 500px;
   height: 400px;
+  margin-top: 50px;
 }
 
 .lista_contact {
@@ -180,6 +181,10 @@ div iframe {
 }
 .lista_contact i {
   margin-right: 15px;
+}
+
+.contact {
+  margin-top: 100px;
 }
 
 @media (min-width: 768px) {
