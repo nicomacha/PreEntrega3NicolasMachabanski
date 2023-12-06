@@ -187,15 +187,8 @@ div iframe {
   margin-top: 100px;
 }
 
-main a {
-  text-decoration: none;
-  list-style: none;
-  color: black;
-}
-
-@media (min-width: 768px) {
-  .nav_footer {
-    flex-direction: row;
-    justify-content: space-between;
+@media (max-width: 767px) {
+  .navbar-nav {
+    order: -1;
   }
 }/*# sourceMappingURL=style.css.map */

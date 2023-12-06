@@ -1,11 +1,6 @@
-@media (min-width: 768px)
-{
-    .nav_footer {
-        flex-direction: row;
-        justify-content: space-between;
+@media (max-width:767px){
+    .navbar-nav {
+        order: -1;
+        
     }
-    
 }
-
-
-
