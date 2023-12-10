@@ -59,6 +59,9 @@ body {
 .main_index .card-group {
   gap: 20px;
 }
+.main_index .card-group .card {
+  min-width: 300px;
+}
 .main_index .card-group .card-body {
   display: flex;
   flex-direction: column;

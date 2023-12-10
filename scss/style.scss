@@ -62,6 +62,10 @@ body {
 
     .card-group {
         gap: 20px;
+        .card{
+            min-width: 300px;
+
+        }
 
         .card-body {
             display: flex;
