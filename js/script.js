@@ -84,11 +84,9 @@ while (estaComprando) {
   estaComprando = confirm("Quieres seguir comprando?");
   if (estaComprando === false) {
     let fin = "";
-
-    for (i = 0; i < carrito.length; i++) {
-      let compra = carrito[i];
+    carrito.forEach((compra, index) => {
       fin +=
-        `Tu pedido numero ${i + 1} : ` +
+        `Tu pedido número ${index + 1}: ` +
         compra.nombre +
         " " +
         "color " +
@@ -97,7 +95,7 @@ while (estaComprando) {
         "y el talle " +
         compra.talle +
         "\n";
-    }
+    });
     console.log(fin);
   }
 }
