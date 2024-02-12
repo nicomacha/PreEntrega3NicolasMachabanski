@@ -18,10 +18,7 @@ while (apellidoUsuario == nameUser) {
 }
 
 alert("Bienvenido/a " + nombreUsuario + " " + apellidoUsuario);
-<<<<<<< HEAD
 console.log("Bienvenido/a " + nombreUsuario + " " + apellidoUsuario);
-=======
->>>>>>> 4c39726afb0feff19a3285e260dfba4aeb551e2d
 
 let edadUsuario = prompt("Ingrese su edad");
 console.log(edadUsuario);
@@ -49,7 +46,6 @@ if (edadUsuario < 18) {
   }
 }
 
-<<<<<<< HEAD
 function tuPedido(objetoProducto) {
   let nombre = objetoProducto.nombre ?? " ";
   let color = objetoProducto.color ?? " ";
@@ -106,19 +102,3 @@ while (estaComprando) {
   }
 }
 console.log(carrito);
-=======
-let opcion = prompt(
-  "Elegi una opcion: \n 1- Seccion remeras \n 2- Seccion buzos \n 3- Seccion Jeans "
-);
-switch (opcion) {
-  case "1":
-    console.log("Estas ingresando a la  seccion Remeras");
-    break;
-  case "2":
-    console.log("Estas ingresando a la  seccion Buzos");
-    break;
-  case "3":
-    console.log("Estas ingresando a la seccion jeans");
-    break;
-}
->>>>>>> 4c39726afb0feff19a3285e260dfba4aeb551e2d
